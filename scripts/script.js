@@ -1,10 +1,5 @@
-const myImg=document.querySelectorAll('.alt-images');
-
-
-
-
-
-
-
-
-const resultcard=document.querySelectorAll('add-btn, buy-btn, add-both-to-cart').click;
+var counter = 0;
+    function incNumber() {
+      counter += 1;
+      document.getElementById("counter").innerHTML = counter;
+    }

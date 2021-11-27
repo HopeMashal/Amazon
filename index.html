@@ -84,7 +84,7 @@
             </div>
             <div class="cart nav-btn">
               <div class="cart-logo">
-                <span class="cart-text nav-text-bold">0</span>
+                <span id="counter" class="cart-text nav-text-bold">0</span>
                 <div class="cart-img"></div>
               </div>
               <span class="nav-text-bold">Cart</span>
@@ -174,8 +174,8 @@
                             <option value="30">30</option>
                         </select>
                     </div>
-                    <div class="add-btn">Add to Cart</div>
-                    <div class="buy-btn">Buy Now</div>
+                    <input type="button" class="add-btn" value="Add to Cart" onclick="incNumber()">
+                    <input type="button" class="buy-btn" value="Buy Now" onclick="incNumber()">
                             <div class="product-purchase-secure">
                                 <a class="product-link" href="#">
                                     <img class="ssl-img" src="assets/img/secured-ssl._CB485936932_.png" height="15px">
@@ -228,37 +228,6 @@
                         <div class="big-img big-img7"><img src="assets/img/61OpEkP0qSS._AC_SL1100_.jpg" alt=""></div>
                       </div>
                     <span id="canvasCaption" class="a-color-secondary">Roll over image to zoom in</span>
-                    <!-- <div class="display-alt-images">
-                        <ul class="alt-images">
-                            <li class="alt-images-item alt-images-item-1">
-                                <img src="assets/img/41N77+hv0KL._AC_US40_.jpg">
-                            </li>
-                            <li class="alt-images-item alt-images-item-2">
-                                <img src="assets/img/51bwliTBkTS._AC_US40_.jpg">
-                            </li>
-                            <li class="alt-images-item alt-images-item-3">
-                                <img src="assets/img/51aoxET1niS._AC_US40_.jpg">
-                            </li>
-                            <li class="alt-images-item alt-images-item-4">
-                                <img src="assets/img/51OgsZACz3S._AC_US40_.jpg">
-                            </li>
-                            <li class="alt-images-item alt-images-item-5">
-                                <img src="assets/img/51X6x2kt9GS._AC_US40_.jpg">
-                            </li>
-                            <li class="alt-images-item alt-images-item-6">
-                                <img src="assets/img/5147GZ+pAlS._AC_US40_.jpg">
-                            </li>
-                            <li class="alt-images-item alt-images-item-7">
-                                <img src="assets/img/41GnpD4fKvS._AC_US40_.jpg">
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="display-main-image">
-                        <img class="main-image-image" src="assets/img/71eyCKV57FL._AC_SL1500_.jpg">
-                        <div class="main-image-caption">
-                            <span id="canvasCaption" class="a-color-secondary">Roll over image to zoom in</span>
-                        </div>
-                    </div> -->
                 </div>
                 <div class="product-info">
                     <div class="product-info-title">
@@ -356,7 +325,7 @@
                 <img class="top-footer-img-color" src="assets/img/71AhQ8Htj4L._AC_UL232_SR232,232_.jpg">
                 <p class="total-pr">Total price:<span class="spe-pr"> $32.98</span>
                 <br>
-                <input type="button" class="add-both-to-cart" value="Add both to Cart">
+                <input type="button" class="add-both-to-cart" value="Add both to Cart" onclick="incNumber()">
                 </p>
             </div>
             <p class="top-footer-text1">

@@ -353,6 +353,7 @@
     border-color: #fcd200;
     margin-bottom: 10px;
 	padding: 4px 11px 4px 11px;
+	width:204px;
     font-size: 14px;
     line-height: 20px;
 	font-family: "Amazon Ember", Arial, sans-serif;
@@ -373,6 +374,7 @@
     background: #ffa41c;
     border-color: #ff8f00;
 	padding: 4px 11px 4px 11px;
+	width:204px;
     font-size: 14px;
     line-height: 20px;
 	font-family: "Amazon Ember", Arial, sans-serif;
@@ -558,7 +560,7 @@
 .small-img:hover {
     cursor: pointer;
     border-color: #e47911;
-    box-shadow: 0px 0px 4px 2px #f90;
+    box-shadow: 0px 0px 2px 2px #f90;
 }
 .big-img {
     display: none;
@@ -588,27 +590,21 @@
 .small-img7:hover ~ .big-img1 {
     display: none; 
 }
-
 .small-img2:hover ~ .big-img2 {
     display: block;
 }
-
 .small-img3:hover ~ .big-img3 {
     display: block;
 }
-
 .small-img4:hover ~ .big-img4 {
     display: block;
 }
-
 .small-img5:hover ~ .big-img5 {
     display: block;
 }
-
 .small-img6:hover ~ .big-img6 {
     display: block;
 }
-
 .small-img7:hover ~ .big-img7 {
     display: block;
 }
